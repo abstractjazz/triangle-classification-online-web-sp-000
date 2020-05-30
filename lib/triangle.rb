@@ -28,11 +28,11 @@ class Triangle
     end
   end
 
-  def real_triangle
+  def kosher_triangle
     x.positive? && y.positive? && z.positive?
   end
 
-  def real_triangle2
+  def kosher_triangle2
     x + y > z && x + z > y && y + z > x
   end
 end
